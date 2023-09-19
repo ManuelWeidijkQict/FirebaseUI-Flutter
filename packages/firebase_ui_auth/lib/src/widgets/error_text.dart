@@ -26,6 +26,8 @@ String? localizedErrorText(
       return labels.credentialAlreadyInUseErrorText;
     case 'invalid-verification-code':
       return labels.invalidVerificationCodeErrorText;
+    case 'user-disabled':
+      return "Account inactief, We hebben een e-mail gestuurd met instructies om uw account te heractiveren.";
 
     default:
       return null;
